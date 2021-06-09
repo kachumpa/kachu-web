@@ -1,9 +1,12 @@
 
-.hero-center-wrap p,
 .nav__list-item.active-nav a,
 .nav__list-item.active-nav a:hover,
 .nav__list-item a:hover,
-.nav__list .sub-links li.active-nav a,
+.nav__list .sub-links li.active-nav a{
+	color: #fff;
+}
+
+.hero-center-wrap p,
 .footer a,
 .footer a:hover,
 .content-subtext,
