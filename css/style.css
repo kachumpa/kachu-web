@@ -10,7 +10,7 @@ body{
 	line-height: 1.55;
 	color: #646464;
 	overflow-x: hidden;
-	background-color: #F4F4F4;
+	background-color: #F4F4F4#F4F4F4#F4F4F4;
 }
 
 p span{
@@ -44,6 +44,7 @@ h3, .h3 {
 h4, .h4 {
     font-family: 'AvenirNextDemiBold';
 	font-size: 1.7rem;
+	color: #6bd1cf;
 }
 h5, .h5 {
 	font-size: 1.25rem;
@@ -716,9 +717,17 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 
 .background-red {
-	background-color: #f24545;
-	
+	background-color: #f24545;	
 }
+
+.background-yellow {
+	background: repeating-linear-gradient(-45deg, #f7e8b0, #f7e8b0 2px, transparent 10px, transparent 20px);
+}
+
+.background-yellow h1{
+	color: #f297e1;
+}
+
 .background-purple {
 	background-color: #871576;
 	background-image: url(../img/portfolio/work/rs/bg1.png);
@@ -798,6 +807,11 @@ body.nav-active .nav__list-item:nth-child(10) {
 .padding-top-small {
 	padding-top: 50px;
 }
+
+.padding-top-vsmall {
+	padding-top: 30px;
+}
+
 .padding-bottom-small {
 	padding-bottom: 50px;
 }
@@ -1866,7 +1880,8 @@ body.nav-active .nav__list-item:nth-child(10) {
 .video-section {
 	position: relative;
 	width:100%;
-	max-width:800px;
+	max-width:1110px;
+
 }
 .video-wrapper, figure.vimeo, figure.youtube {
 	margin:0;
@@ -1890,6 +1905,7 @@ figure.youtube a img, figure.vimeo a img {
 	width: auto;
 	height: 100%;
 	max-width:none;
+	border-radius: 25px 25px 25px 25px;
 }	
 figure.vimeo a:after, figure.youtube a:after {
 	content:"";
@@ -2216,7 +2232,7 @@ a:hover{
 	top: 50%;
 	left: -45px;
 	width: 30px;
-	background-color: #212121;
+	background-color: #6BD1CF;
 	height: 1px;
 	t-index: 2;
 }
@@ -3743,9 +3759,10 @@ a:hover{
     font-style: normal;
 }
 
-
+/* #Primary
+================================================== */
 .cookie {
-	background: #d34e1a;
+	background: #d34e1a;#F4F4F4
 }
 
 
