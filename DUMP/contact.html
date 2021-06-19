@@ -7,7 +7,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>About Me | KACHUMPA</title>
+	<title>Elpis template by IG Design</title>
 	<meta name="description"  content="Professional Creative Template" />
 	<meta name="author" content="IG Design">
 	<meta name="keywords"  content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
@@ -52,12 +52,6 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 	
-			<script language="javascript" type="text/javascript">
-function playSound(soundfile) {
-  document.getElementById("dummy").innerHTML=
-    "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
-}
-</script>
 	
 </head>
 <body>	
@@ -77,7 +71,7 @@ function playSound(soundfile) {
 				<div class="row">
 					<div class="col-md-12 ml-3 mr-md-3">
 						<div class="logo-wrap">
-							<a href="index.html"><img src="img/logo.svg" alt=""></a>
+							<a href="index.html"><img src="img/logo.png" alt=""></a>
 						</div>
 						<div class="nav-but-wrap">
 							<div class="menu-icon">
@@ -92,161 +86,163 @@ function playSound(soundfile) {
 				
 		</header>
 
-		<div class="nav">
+	<div class="nav">
 		<div class="nav__content">
 			<ul class="nav__list">
-				<li class="nav__list-item"><a href="work.html">work</a></li>
-				<li class="nav__list-item"><a href="services.html">services</a></li>
-				<li class="nav__list-item"><a href="about.html">about</a></li>
-				<li class="nav__list-item"><a href="contact.html">contact</a></li>
+				<li class="nav__list-item"><a data-toggle="collapse" href="#collapseSub" role="button" aria-expanded="false" aria-controls="collapseSub">work</a>
+					<ul class="sub-links collapse" id="collapseSub">
+						<li><a href="index.html">slice revealer</a></li>
+						<li><a href="index-1.html">scrolling letters</a></li>
+						<li><a href="index-2.html">slider hero</a></li>
+						<li><a href="index-3.html">video showcase</a></li>
+						<li><a href="index-4.html">masonry portfolio</a></li>
+						<li><a href="index-5.html">title follow mouse</a></li>
+						<li><a href="index-6.html">parallax portfolio</a></li>
+					</ul>
+				</li>
+				<li class="nav__list-item"><a href="studio.html">studio</a></li>
+				<li class="nav__list-item"><a href="blog.html">journal</a></li>
+				<li class="nav__list-item active-nav"><a href="contact.html">contact</a></li>
 			</ul>
 		</div>
 	</div>	
-		
-		
-
 
 	<!-- Primary Page Layout
 	================================================== -->
 
-<!-- HEADING -->
-		
 	<div class="section big-65-height over-hide">
-		<div class="hero-center-wrap big z-bigger">
+		<div class="hero-center-wrap z-bigger">
 			<div class="container">
 				<div class="row">
-					<span id="dummy"></span>
 					<div class="col-md-12 parallax-fade-top">
-						<h1 class="text-center">What's a<br> kachumpa?</h1>
-							
-						<p class="text-center"><a href='img/kachumpa.mp3'); target="_blank">🔊</a> <I>KÄ CHOOM PÄ</I> </p>
+						<p>get in touch</p>	
+						<h2>Always Ready<br>to Work</h2>
 					</div>
 				</div>	
 			</div>
 		</div>
 	</div>
 
-
-		
-
-<!--START -->
-	<div class="section padding-bottom-small">
+	<div class="section padding-bottom-big">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-					<div class="team-mem js-tilt" data-tilt-perspective="800" data-tilt-speed="700" data-tilt-max="10">
-									<img src="img/pages/me.png" alt="">
-								<div class="team-mask"></div>
-								<ul class="team-soc">
-									<li>
-										<a href="https://www.linkedin.com/in/kachumpa/" target="_blank"><i class="fa fa-linkedin"></i></a>
-									</li>
-									<li>
-										<a href="https://www.instagram.com/kachumpa/" target="_blank"><i class="fa fa-instagram"></i></a>
-									</li>
-								</ul>
-							</div>
+				<div class="col-md-4">
+					<div class="sec-titile">
+						<div class="subtitle">
+							 drop us a line
+						</div>	
+					</div>	
 				</div>
-				
-
-						<div class="col-lg-6 mt-4 mt-lg-0 padding-top-big">
-							<div class="team-info">
-								
-								<h4>🍭 She/Her</h4>
-								<h1>Tanya Mathew</h1>
-								
-								<b>Design specialist based in India with over 4 years of experience spanning across brand identity, online and offline advertising, social media marketing and communications. Led branding and design at an omnichannel FMCG start-up pledged to personal hygiene and care. Key role in creating brand identity, award winning campaigns, and streamlining communications to market the importance of hygiene.</b>
-								<br><br>
-								<i>My design dreams began on an HP laptop with a copy Microsoft Image Composer in the year of 2006. I also spent 12 years learning the Piano like a good Asian kid. After doing my Bachelor's in Liberal Arts, I eventually completed my Master's in Design in 2017.<br><br>
-								<b>I think cats and video games are neat.</b><br>
-								(Even better together)</i>
-								<br><br>
-								<p class="text-right">Say hello to my brother, Neil Mathew ~<a href="https://www.metalwihen.com/" target="_blank">metalwihen</a></p>
+				<div class="col-md-8 mt-5 mt-md-0">
+					<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+						<div class="row">
+							<div class="col-lg-6">
+								<label for="name"> 
+									<span class="error" id="err-name">please enter name</span>
+								</label>
+								<input name="name" id="name" type="text"   placeholder="Your Name: *"/>
 							</div>
-						</div>
-						
-						
-					</div>
+							<div class="col-lg-6 mt-4 mt-lg-0">
+								<label for="email"> 
+									<span class="error" id="err-email">please enter e-mail</span>
+									<span class="error" id="err-emailvld">e-mail is not a valid format</span>
+								</label>
+								<input name="email" id="email" type="text"  placeholder="E-Mail: *"/>
+							</div>
+							<div class="col-lg-12 mt-4">
+								<label for="message"></label>
+								<textarea name="message" id="message" placeholder="Tell Us Everything"></textarea>
+							</div>
+							<div class="col-lg-12 mt-4">
+								<div id="button-con"><button class="send_message js-tilt" id="send" data-lang="en" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>submit</span></button></div>					
+							</div>	
+							<div class="col-lg-12 mt-4">
+								<div class="error" id="err-form"><span>There was a problem validating the form please check!</span></div>
+								<div class="error" id="err-timedout">The connection to the server timed out!</div>
+								<div class="error" id="err-state"></div>
+								<div id="ajaxsuccess">Successfully sent!!</div>
+							</div>	
+						</div>	
+					</form>	
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="section padding-bottom-big">
-		
-		<!-- EXPERIENCE -->
 		<div class="container">
-			
 			<div class="row">
 				<div class="col-md-4">
 					<div class="sec-titile">
 						<div class="subtitle">
-							<h4>Cool Things</h4>
+							contact details
 						</div>	
 					</div>	
 				</div>
-				<div class="col-md-8 mt-5 mt-md-0">	
+				<div class="col-md-8 mt-5 mt-md-0">
 					<div class="row">
-						<div class="col-lg-6">	
-							<div class="services background-grey js-tilt" data-tilt-perspective="800" data-tilt-speed="700" data-tilt-max="10">	
-								<img src="img/services1.svg" alt="">
-						
-								<h6>Creative Director</h6>
-								<h4>Pee Safe</h4>
-								<ul><p>
-									<li>Designing and developing content for the brand e-commerce website with <b>500K+ visitors monthly</b></li><br>
-									<li>Conceptualizing, executing and managing social media strategy for Pee Safe &amp; Raho Safe <b>(145K+ followers)</b></li><br>
-									<li>Key player behind <b>5x growth</b> in Instagram following (80K+)</li><br>
-
-									<li>Developed packaging design &amp; content based on product research and competitor analysis for <b>25+ SKUs</b></li>
-									</p></ul>
-							</div>
+						<div class="col-lg-6 con-det">
+							<h6>Email:</h6>
+							<p>office@elpis.com</p>
+							<p>support@elpis.com</p>
 						</div>
-						<div class="col-lg-6 mt-4 mt-lg-0">	
-							<div class="services background-grey js-tilt" data-tilt-perspective="800" data-tilt-speed="700" data-tilt-max="10">	
-								<img src="img/services2.svg" alt="">
-								<h6>Achievements &amp;</h6>
-								<h4>Awards</h4>
-								<ul><p>
-									<li>Led and designed an <b>award-winning product launch</b> (CubeX Consumer Healthcare Award - Havas Group) under feminine hygiene</li><br>
-									<li>Led and designed an <b>award-winning campaign</b> (BuzzInContent Awards 2020) under E-Commerce</li><br> 
-									<li> Shortlisted Nominee for <b>Social Samosa 40 Under 40</b> Class of 2019-2020.</li><br>
-									
-									</p></ul>
-							</div>
+						<div class="col-lg-6 mt-4 mt-lg-0 con-det">
+							<h6>Tel:</h6>
+							<p>+1 234 78364236</p>
+							<p>+1 173 83559208</p>
 						</div>
-						
 					</div>
 				</div>
 			</div>
-		
 		</div>
-		
-		
-
-	
-		
 	</div>
 
-	
+	<div class="section">
+		<div id="cd-google-map">
+			<div id="google-container"></div>
+			<div id="cd-zoom-in"></div>
+			<div id="cd-zoom-out"></div>
+		</div>
+	</div>
 
-	<!-- FOOTER -->
-		<div class="section padding-top-big padding-bottom">
+	<div class="section padding-top-big">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="sec-titile">
+						<div class="subtitle">
+							stay tunned
+						</div>	
+					</div>	
+				</div>
+				<div class="col-md-8 mt-5 mt-md-0">
+					<div class="subscribe">
+						<input type="text" placeholder="your e-mail here"/>
+						<button data-lang="en"><span class="fa-long-arrow-right"></span></button>
+					</div>
+					<div class="subscribe-text">
+						<p>* we promise that we won´t spam you, never.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section padding-top-big padding-bottom">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 footer" data-scroll-reveal="enter bottom move 50px over 0.5s after 0.2s">
-					<p>2021 © <b>kachumpa</b> 🍄 <br>
-						<i>Have you ever walked up the stairs backwards?</i></p>
+					<p>2018 © <a href="https://themeforest.net/user/ig_design/portfolio?ref=IG_design">Elpis</a> template. Design by <a href="https://themeforest.net/user/ig_design/portfolio?ref=IG_design">IG Design</a>.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="social-fixed-left">
-		<a href="work.html">work</a>
-		<a href="services.html">services</a>
-		<a href="about.html">about</a>
-		<a href="contact.html">contact</a>
+		<a href="#">twitter</a>
+		<a href="#">facebook</a>
+		<a href="#">behance</a>
+		<a href="#">github</a>
 	</div>
 	
 	<div class="scroll-to-top">to top</div>
@@ -259,8 +255,15 @@ function playSound(soundfile) {
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script> 
+	<script src="js/contact.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvpnlHRidMIU374bKM5-sx8ruc01OvDjI"></script>
+	<!-- ==================
+		Go to this link to activated your google map API KEY https://developers.google.com/maps/documentation/javascript/tutorial#api_key 
+		your key replace in script link for google map after .../maps/api/js?key=HERE_YOUR_API_KEY
+		coordinates for map you can change in google-map.js file 
+	================== -->
+	<script src="js/google-map.js"></script> 
 	<script src="js/custom.js"></script> 
-
 	
 <!-- End Document
 ================================================== -->
