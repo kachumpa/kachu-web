@@ -1,6 +1,17 @@
 
 /* #Primary
-================================================== */
+================================================== 
+
+HEX CODES:
+Blue #6bd1cf
+Pink #f297c9
+Yellow #f4c058
+Light Bg #f9f1e5
+Grey BG #F4F4F4
+
+
+
+*/
 
 body{
 	font-family: 'Poppins', sans-serif;
@@ -11,6 +22,15 @@ body{
 	color: #646464;
 	overflow-x: hidden;
 	background-color: #F4F4F4;
+}
+
+a, a:link {
+	color: #F297C9;
+}
+
+
+a:active{
+	color: #F297C9;
 }
 
 p span{
@@ -340,7 +360,7 @@ mark{
           transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-	background: #f297c9;
+	background: #F4F4F4;
 	-webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
@@ -388,7 +408,7 @@ mark{
 .nav__list-item a{ 
 	position: relative;
 	text-decoration: none;
-	color: #000;
+	color: #6bd1cf;
 	overflow: hidden; 
 	cursor: pointer;
 	padding-left: 5px;
@@ -2126,11 +2146,11 @@ figure.vimeo a img, figure.youtube a img {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	outline: none;
-	font-family: 'Crimson Text';
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
 	color: #777;
-	font-weight:400;
-	font-style: italic;
-	font-size: 18px;
+	text-transform: uppercase;
+	font-size: 15px;
 	line-height:22px;
 	text-decoration: none;
     -webkit-transition: all 300ms linear;
