@@ -3,9 +3,9 @@
 ================================================== 
 
 HEX CODES:
-Blue #6bd1cf
-Pink #f297c9
-Yellow #f4c058
+Blue #6bd1cf -> #9dc48a
+Pink #f297c9 - > #ac7d6b 
+Yellow #c09c67 -> #c09c67
 Light Bg #f9f1e5
 Grey BG #F4F4F4
 
@@ -25,16 +25,16 @@ body{
 }
 
 a, a:link {
-	color: #F297C9;
+	color: #ac7d6b;
 }
 
 
 a:active{
-	color: #F297C9;
+	color: #ac7d6b;
 }
 
 p span{
-	color: #f297c9;
+	color: #ac7d6b;
 }
 
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6,
 
 
 h1 span{
-	color: #6bd1cf;
+	color: #9dc48a;
 }
 
 h1, .h1 {
@@ -64,7 +64,7 @@ h3, .h3 {
 h4, .h4 {
     font-family: 'AvenirNextDemiBold';
 	font-size: 1.7rem;
-	color: #6bd1cf;
+	color: #9dc48a;
 }
 h5, .h5 {
 	font-size: 1.25rem;
@@ -124,10 +124,10 @@ mark{
   0% {
     height: 0;
     width: 0;
-    background-color: #6bd1cf;
+    background-color: #9dc48a;
   }
   29% {
-    background-color: #6bd1cf;
+    background-color: #9dc48a;
   }
   30% {
     height: 2em;
@@ -148,10 +148,10 @@ mark{
   0% {
     height: 0;
     width: 0;
-    background-color: #6bd1cf;
+    background-color: #9dc48a;
   }
   29% {
-    background-color: #6bd1cf;
+    background-color: #9dc48a;
   }
   30% {
     height: 2em;
@@ -172,10 +172,10 @@ mark{
   0% {
     height: 0;
     width: 0;
-    background-color: #6bd1cf;
+    background-color: #9dc48a;
   }
   29% {
-    background-color: #6bd1cf;
+    background-color: #9dc48a;
   }
   30% {
     height: 2em;
@@ -312,7 +312,7 @@ mark{
 	height: 5px;
 	width: 30px;
 	display: block;
-	background-color: #6bd1cf;
+	background-color: #9dc48a;
 	margin-bottom: 7px;
 	-webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
 	transition: background-color .5s ease, -webkit-transform .2s ease;
@@ -350,7 +350,7 @@ mark{
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: #6bd1cf;
+	background: #9dc48a;
 	z-index: -1;
 	-webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
 	transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
@@ -360,7 +360,7 @@ mark{
           transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-	background: #F4F4F4;
+	background: #b9d6a3;
 	-webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
@@ -408,7 +408,7 @@ mark{
 .nav__list-item a{ 
 	position: relative;
 	text-decoration: none;
-	color: #6bd1cf;
+	color: #fff;
 	overflow: hidden; 
 	cursor: pointer;
 	padding-left: 5px;
@@ -2266,7 +2266,7 @@ a:hover{
 	top: 50%;
 	left: -45px;
 	width: 30px;
-	background-color: #6BD1CF;
+	background-color: #9dc48a;
 	height: 1px;
 	t-index: 2;
 }
@@ -2389,7 +2389,7 @@ a:hover{
 	font-size: 40px;
 	padding-left: 45px;
 	line-height: 1.1;
-	color: #6bd1cf;
+	color: #9dc48a;
 }
 .sec-titile .subtitle{
 	position: relative;
