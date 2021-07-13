@@ -3,7 +3,7 @@
 .nav__list-item.active-nav a:hover,
 .nav__list-item a:hover,
 .nav__list .sub-links li.active-nav a{
-	color: #c09c67;
+	color: #f297c9;
 }
 
 .hero-center-wrap p,
@@ -28,7 +28,7 @@
 .list-style.circle-o li:before,
 .list-style li i,
 .list-style a.btn-link:hover{
-	color: #9dc48a;
+	color: #6bd1cf;
 }
 #royal_preloader.royal_preloader_progress .royal_preloader_meter,
 .social-fixed-left a:before,
@@ -45,7 +45,7 @@
 .blog-info a:hover,
 mark,
 .btn-primary:hover{
-	background-color: #9dc48a;
+	background-color: #6bd1cf;
 }
 #ajax-form textarea:focus,
 #ajax-form input:focus,
@@ -53,31 +53,31 @@ mark,
 #ajax-form input:active,
 .subscribe input:active,
 .subscribe input:focus {	
-	border-bottom:1px solid #9dc48a;
+	border-bottom:1px solid #6bd1cf;
 }
 .pag-3d-line:hover,
 .pag-3d-work-wrap a.mPS2id-highlight .pag-3d-line,
 .form-control:active,
 .form-control:focus{
-	border-color: #9dc48a;
+	border-color: #6bd1cf;
 }
 figure.vimeo a:before, figure.youtube a:before {
-	border-left: 10px solid #9dc48a;
+	border-left: 10px solid #6bd1cf;
 }
 figure.vimeo:hover a:after, figure.youtube:hover a:after {
-	background:#9dc48a;
+	background:#6bd1cf;
 }
 .blockquote{
-	border-left: 0.4rem solid #9dc48a;
+	border-left: 0.4rem solid #6bd1cf;
 }
 .blockquote-reverse{
-	border-right: 0.4rem solid #9dc48a;
+	border-right: 0.4rem solid #6bd1cf;
 } 
 ::selection {
-	background-color: #c09c67;
+	background-color: #f297c9;
 }
 ::-moz-selection {
-	background-color: #c09c67;
+	background-color: #f297c9;
 }
 
 
